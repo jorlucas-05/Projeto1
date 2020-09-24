@@ -1,0 +1,194 @@
+body {
+  background-color: black;
+  background: url("https://wallpapercave.com/wp/wp2665200.jpg") fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#img2 {
+  float: left;
+}
+
+.h22 {
+  text-shadow: 2px 2px 3px red;
+  text-align: center;
+  color: black;
+  font-size: 60px;
+  font-family: Times New Roman;
+  font-style: italic;
+}
+
+h2 {
+  background-color: black;
+  text-decoration: none;
+  text-align: center;
+  font-style: italic;
+  text-shadow: 1px 1px 1px white;
+  color: #b30000;
+  font-family: Times New Roman;
+  font-size: 30px;
+}
+
+p {
+  background-color: black;
+  text-decoration: none;
+  text-align: center;
+  font-style: italic;
+  color: red;
+  font-family: courier;
+  font-size: 20px;
+}
+
+.a1 {
+  background-color: white;
+  color: black;
+  font-size: 23px;
+  text-align: left;
+  font-family: Arial;
+}
+
+h3 {
+  color: red;
+  background-color: black;
+  text-align: center;
+  font-size: 23px;
+}
+
+.dor{
+  display: inline;
+}
+
+textarea{
+  text-decoration: underline;
+  margin-left: 16px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+}
+
+li{
+  list-style-position: inside;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+input{
+  font-size: 15px;
+  border: 3px solid black;
+}
+
+fieldset{
+  background-color: black;
+  display: inline;
+}
+
+.field1{
+  border: 1px solid white;
+  background-color: white;
+}
+
+.ul0 {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  border-radius: 50px;
+  border: 2px solid black;
+}
+
+.li0 a {
+  background-color: #333333;
+  border: 0px solid black;
+  border-radius: 50px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 23px;
+  float: left;
+}
+
+.li0 a:hover {
+  background-color: red;
+}
+
+video {
+  display: block;
+  margin: auto;
+}
+
+div {
+  text-align: center;
+}
+
+.class {
+  margin-left: 260px;
+  margin-right: 260px;
+  border: 2px solid none;
+
+}
+
+#i, .i{
+  width: 80px;
+  height: 30px;
+  color: red;
+  border: 2px solid red;
+  display: inline;
+  cursor: pointer;
+}
+
+#i:hover, .i:hover{
+ background-color: black;
+}
+
+.button {
+  border: 2px solid red;
+  color: red;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button .image {
+  width: 130px;
+  height: 80px;
+  border: 0;
+}
+
+.button:hover {
+  background-color: black;
+}
+
+/* unvisited link */
+.a2:link {
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+/* visited link */
+.a2:visited {
+  color: purple;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+/* mouse over link */
+.a2:hover {
+  color: blue;
+  text-decoration: underline;
+  font-size: 50px;
+}
+
+/* selected link */
+.a2:active {
+  color: red;
+  text-decoration: underline;
+  font-size: 50px;
+}
